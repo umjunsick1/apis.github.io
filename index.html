@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Redirecting...</title>
-	<meta http-equiv="refresh" content="0; url=<?php echo $_GET['url']; ?>">
+  <meta charset="UTF-8">
+  <title>리다이렉트 페이지</title>
 </head>
 <body>
-	<p>Redirecting to <?php echo $_GET['url']; ?>...</p>
+  <h1>리다이렉트 페이지</h1>
+  <form action="" method="get">
+    <label>리다이렉트할 URL을 입력하세요:</label>
+    <input type="text" name="redirect">
+    <button type="submit">리다이렉트</button>
+  </form>
 </body>
 </html>
